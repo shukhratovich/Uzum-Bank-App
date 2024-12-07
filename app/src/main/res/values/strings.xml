@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">Uzum Bank App</string>
+    <string name="language_uz" translatable="false">Uzbek</string>
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_ru" translatable="false">Русский</string>
+
+    <!--- ******************** BASIC ********************-->
+
+
+    <!--- ******************** AUTH ********************-->
+
+    <string name="tv_welcome">Uzum Bankka \nxush kelibsiz</string>
+    <string name="offer_uz">Davom etish orqali men taklif shartlariga rozilik bildiraman va qabul qilaman hamda KQBXSh qoidalari va sodiqlik qoidalariga qo‘shilaman</string>
+    <string name="enter_password_uz">Parol kiriting</string>
+    <string name="enter_phone_uz">Telefon raqami</string>
+    <string name="support_uz">Qo`llab-quvvatlash</string>
+    <string name="continue_uz">Davom ettirish</string>
+    <!--- ******************** CARD ********************-->
+    <!--- ******************** P2P ********************-->
+
+</resources>

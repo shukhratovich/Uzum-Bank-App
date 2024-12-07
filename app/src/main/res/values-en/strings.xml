@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- ******************** BASIC ********************-->
+
+
+    <!--- ******************** AUTH ********************-->
+
+    <string name="tv_welcome">Welcome to \nUzum Bank</string>
+    <string name="offer_uz">By continuing, I agree and accept the terms of the offer and agree to the Terms of Service and Loyalty Terms</string>
+    <string name="enter_password_uz">Enter a password</string>
+    <string name="enter_phone_uz">Phone number</string>
+    <string name="support_uz">Support</string>
+    <string name="continue_uz">Continue</string>
+
+    <!--- ******************** CARD ********************-->
+    <!--- ******************** P2P ********************-->
+</resources>

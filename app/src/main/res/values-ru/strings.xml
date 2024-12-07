@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- ******************** BASIC ********************-->
+
+
+    <!--- ******************** AUTH ********************-->
+
+    <string name="tv_welcome">Добро пожаловать \nв Uzum Bank</string>
+    <string name="offer_uz">Продолжая, я соглашаюсь и принимаю условия оферты иприсоединяюсь к правилам ДКБО и правилам лояльности</string>
+    <string name="enter_password_uz">Введите пароль</string>
+    <string name="enter_phone_uz">Номер телефона</string>
+    <string name="support_uz">Поддержка</string>
+    <string name="continue_uz">Продолжить</string>
+
+    <!--- ******************** CARD ********************-->
+    <!--- ******************** P2P ********************-->
+</resources>
