@@ -3,7 +3,8 @@ package com.example.uzumbankapp.presenters
 import androidx.lifecycle.LiveData
 
 interface SplashViewModel {
-    val timerLiveData: LiveData<Unit>
+    val openPinCodeScreenLiveData: LiveData<Unit>
+    val openSignInScreenLiveData: LiveData<Unit>
 
     fun startTimer()
 }

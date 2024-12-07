@@ -41,7 +41,11 @@ class VerifyViewModelImpl @Inject constructor(
         if (code.length == 6) {
             authRepository.verifyLogin(VerifyData(pref.token, code).toRequest())
                 .onEach {
-                    it.onSuccess { openHomeTestLiveData.value = Unit }
+                    it.onSuccess { token ->
+                        pref.accessToken = token.accessToken
+                        pref.refreshToken = token.refreshToken
+                        openHomeTestLiveData.value = Unit
+                    }
                     it.onFailure { }
                 }
                 .launchIn(viewModelScope)

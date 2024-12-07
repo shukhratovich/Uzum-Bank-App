@@ -35,8 +35,11 @@ class SplashScreen : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModel.timerLiveData.observe(this) {
+        viewModel.openSignInScreenLiveData.observe(this) {
             findNavController().navigate(SplashScreenDirections.actionSplashScreenToSignInScreen())
+        }
+        viewModel.openPinCodeScreenLiveData.observe(this) {
+            findNavController().navigate(SplashScreenDirections.actionSplashScreenToPinCodeScreen())
         }
     }
 

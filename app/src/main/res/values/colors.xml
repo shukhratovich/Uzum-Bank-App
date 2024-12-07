@@ -5,4 +5,5 @@
     <color name="uzum_primary">#7000FF</color>
     <color name="uzum_input">#EDEFF2</color>
     <color name="text_primary">#1f2026</color>
+    <color name="dots_color">#371F2026</color>
 </resources>

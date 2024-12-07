@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_splashScreen_to_signInScreen"
             app:destination="@id/signInScreen" />
+        <action
+            android:id="@+id/action_splashScreen_to_pinCodeScreen"
+            app:destination="@id/pinCodeScreen" />
     </fragment>
     <fragment
         android:id="@+id/introScreen"
