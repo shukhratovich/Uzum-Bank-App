@@ -13,4 +13,5 @@ class SharedPref @Inject constructor(@ApplicationContext context: Context) :
     var accessToken: String by strings()
     var refreshToken: String by strings()
     var token: String by strings()
+    var pin: String by strings()
 }
